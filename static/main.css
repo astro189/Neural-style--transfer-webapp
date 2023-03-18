@@ -5,108 +5,107 @@
     overflow-x: hidden;
  }
  h1{
-    padding-top: 18px;
-    padding-left: 20px;
+    padding-top: 1.4rem;
+    padding-left: 2.0rem;
     background-color: black;
     color: whitesmoke;
  }
- hr{
-    border-top: 2px solid black;
- }
+
 .parent{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     display:flex;
     align-items: center;
     justify-content: center;
     overflow:hidden;
 }
 .container{
-    width: 100vw;
-    height:120vh;
+    width: 100%;
+    height:120%;
 }
 .text{
-    margin-top: 50px;
-    margin-left: 100px;
-    width:70vw ;
-    height:50vh;
+    margin-top: 4.8%;
+    margin-left: 7%;
+    width:70%;
+    height:50%;
     display:flex;
     align-items: center;
     justify-content: center;
     
 }
 .bottom{
-    margin-top: 50px;
-    margin-right: 50px;
-    height:80vh;
+    margin-top: 2%;
+    margin-right: 1.2%;
+    height:100%;
 }
 .images{
-    height: 45vh;
+    height: 70%;
 }
 .output{
+    height:90%;
+    width: 22%;
     float:right;
 }
 .content{
-    margin-left: 30px;
+    height:90%;
+    width: 22%;
+    margin-left: 2%;
 }
 .style{
-    margin-left: 100px;
+    height:90%;
+    width: 22%;
+    margin-left: 4.7%;
 }
 .fa-plus{
-    padding-top: 60px;
-    font-size: 100px;
-    height: 40vh;
+    padding-bottom: 3.5%;
+    font-size: 7vw;
     color: black;
-    margin-left: 80px;
+    margin-left: 3.5%;
 }
 .fa-equals{
-    padding-top: 60px;
-    font-size: 100px;
-    height: 40vh;
+    padding-bottom: 3.5%;
+    font-size: 7vw;
     color: black;
-    margin-left: 80px;
-}
-.fa-plus ::before{
-    margin-top: 30px;
+    margin-left: 4.8%;
 }
 .step_container{
-    height:30vh;
+    height:34%;
 }
 .warning{
-    margin-top: 10px;
-    margin-left: 27px;
-    font-size: medium;
+    margin-top: 1%;
+    margin-left: 2%;
+    font-size: 1.2vw;
 }
 .instructions{
-    margin-left:25px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-left:2.0%;
+    margin-top: 3%;
+    margin-bottom: 3%;
     color: black;
-    font-size: 45px;
+    font-size: 3vw;
     font-family:'Courier New', Courier, monospace;
 }
 .step1{
-    margin-left: 25px;
-    margin-top: 10px;
+    margin-left: 2.5%;
+    margin-top: 0.2%;
 }
 .step2{
-    margin-top: -35px;
-    margin-left: 40vw;
+    margin-top: -2.1%;
+    margin-left: 40.8%;
 }
 .out{
-    margin-top: -35px;
-    margin-left: 78vw;
+    margin-top: -2.1%;
+    margin-left: 79.5%;
 }
 .try{
-    margin-top: 80px;
-    margin-left: 25px;
+    margin-top: 5%;
+    margin-left: 1.5%;
     color: black;
-    font-size: 45px;
+    font-size: 3vw;
     font-family:'Courier New', Courier, monospace;
 }
 p{
-    margin-left: 25vw;
-    font-size: 25px;
+    margin-left: 27%;
+    font-size: 1.6vw;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color:rgba(21, 21, 23, 0.437)
 }
@@ -140,4 +139,84 @@ footer i{
 .medium{
     margin-left: 30%;
     margin-top:-35px;
+}
+.Gallery{
+    height: 30vh;
+}
+.updateImg{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+label{
+    margin-right: 10%;
+    border: .2rem solid black;
+    border-radius: 0.2rem;
+    width: 7vw;
+    height: 5vh;
+    font-size: 1.2vw;
+    background-color: black;
+    color: antiquewhite;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+label:hover{
+    background-color:rgb(46, 45, 45);
+}
+#upload{
+    border: .2rem solid black;
+    border-radius: 0.2rem;
+    width: 7vw;
+    height: 5vh;
+    font-size: 1vw;
+    background-color: black;
+    color: antiquewhite;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#upload:hover{
+    background-color:rgb(46, 45, 45);
+}
+
+.galleryPage{
+    height: 50%;
+}
+.gpara{
+    height: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.link{
+    height: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.gpara p{
+    font-size: 1.3vw;
+    margin-left: 0%;
+}
+a{
+    text-decoration: none;
+    font-size:2vw;
+    color: black;
+}
+
+a:hover{
+   color: rgb(76, 75, 75);
+}
+
+.home{
+    height: 10vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3%;
 }

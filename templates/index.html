@@ -10,7 +10,7 @@
 	src="https://gradio.s3-us-west-2.amazonaws.com/3.21.0/gradio.js"
     ></script>
     <script src="https://kit.fontawesome.com/ba307a7252.js" crossorigin="anonymous"></script>
-
+    <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
 
     <title>Neural style tranfer</title>
 </head>
@@ -34,13 +34,11 @@
         </div>
         <div class="bottom">
             <p class="instructions">Easy to Use</p>
-            <div class="images">
-                <img class='content' src="/static/display/content12.jpg"  height="300px" width="300px">
-                <i class="fa-solid fa-plus"></i>
-                <img class='style' src="/static/display/painting.jpg" height="300px" width="300px">
-                <i class="fa-solid fa-equals"></i>
-                <img class='output' src="/static/display/image (2).png" height="300px" width="300px"/>
-            </div>  
+            <img class='content' src="/static/display/content12.jpg"/>
+            <i class="fa-solid fa-plus"></i>
+            <img class='style' src="/static/display/painting.jpg"/>
+            <i class="fa-solid fa-equals"></i>
+            <img class='output' src="/static/display/image (2).png"/>
         </div>
     </div>
     <div class="step_container">
@@ -53,10 +51,28 @@
    
     <gradio-app src="https://astro189-neural-style-transfer.hf.space"></gradio-app>
 
+    <div class="Gallery">
+        <div class="updateImg">
+        <label >
+            <input type="file" id="photo" hidden/>
+            <span > Select File</span> 
+        </label></br>
+        <button id="upload" onclick="uploadImage()">Upload Image</button></br>
+        </div>
+        <div class="galleryPage">
+            <div class="gpara"><p > View all images in gallery</p></div>
+            <div class="link"><a href="gallery"> Gallery</a></div>
+        </div>
+    </div>
     <footer>
         <a href="https://github.com/astro189" target="_blank"><i class="fa-brands fa-github"></i></a>
         <a href="https://www.linkedin.com/in/shirshak-ghatak-b04413236/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
         <div class="medium"><a href="https://medium.com/@shirshak.here" target="_blank"><i class="fa-brands fa-medium"></i></a></div>
     </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-storage.js"></script>
+
+    <script src="/static/main.js"></script>
 </body>
 </html>
