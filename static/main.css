@@ -19,6 +19,7 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    overflow:hidden;
 }
 .container{
     width: 100vw;
@@ -32,6 +33,7 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    
 }
 .bottom{
     margin-top: 50px;
@@ -68,7 +70,12 @@
     margin-top: 30px;
 }
 .step_container{
-    height:24vh;
+    height:30vh;
+}
+.warning{
+    margin-top: 10px;
+    margin-left: 27px;
+    font-size: medium;
 }
 .instructions{
     margin-left:25px;
