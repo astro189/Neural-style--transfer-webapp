@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/main.css">
+    <script
+	type="module"
+	src="https://gradio.s3-us-west-2.amazonaws.com/3.21.0/gradio.js"
+    ></script>
+    <script src="https://kit.fontawesome.com/ba307a7252.js" crossorigin="anonymous"></script>
+
+
+    <title>Neural style tranfer</title>
+</head>
+<body>
+    <H1>Neural Style Transfer</H1>
+    
+    <hr>
+
+    <div class="container">
+        <div class="text">
+            <p>How would you like to get an artpiece painted by Picasso or maybe Monet or maybe even Van Gogh, sadly none of them are here with us 
+            anymore to make your wish come true. But with the potential of ai anything is possible.
+            <br>
+            <br>
+            In 2015 Leon Gatys et al came up with a generative model called neural style transfer which allows you to convert any given image to any particular art style.
+            <br>
+            <br>
+            Presenting Manon, our very own ai artist. Manon can paint any picture in any desired style.
+            </p>
+            
+        </div>
+        <div class="bottom">
+            <p class="instructions">Easy to Use</p>
+            <div class="images">
+                <img class='content' src="/static/display/content12.jpg"  height="300px" width="300px">
+                <i class="fa-solid fa-plus"></i>
+                <img class='style' src="/static/display/painting.jpg" height="300px" width="300px">
+                <i class="fa-solid fa-equals"></i>
+                <img class='output' src="/static/display/image (2).png" height="300px" width="300px"/>
+            </div>  
+        </div>
+    </div>
+    <div class="step_container">
+        <p class="step1">Step 1: Select content image </p>
+        <p class="step2">Step 2: Select style image</p>
+        <p class="out">Output: Stylized image</p>
+        <p class="try">Try Manon</p>
+    </div>
+   
+    <gradio-app src="https://astro189-neural-style-transfer.hf.space"></gradio-app>
+
+    <footer>
+        <a href="https://github.com/astro189" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/shirshak-ghatak-b04413236/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <div class="medium"><a href="https://medium.com/@shirshak.here" target="_blank"><i class="fa-brands fa-medium"></i></a></div>
+    </footer>
+</body>
+</html>

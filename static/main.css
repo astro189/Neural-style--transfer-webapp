@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+ }
+ h1{
+    padding-top: 18px;
+    padding-left: 20px;
+    background-color: black;
+    color: whitesmoke;
+ }
+ hr{
+    border-top: 2px solid black;
+ }
+.parent{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 100vw;
+    height:120vh;
+}
+.text{
+    margin-top: 50px;
+    margin-left: 100px;
+    width:70vw ;
+    height:50vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom{
+    margin-top: 50px;
+    margin-right: 50px;
+    height:80vh;
+}
+.images{
+    height: 45vh;
+}
+.output{
+    float:right;
+}
+.content{
+    margin-left: 30px;
+}
+.style{
+    margin-left: 100px;
+}
+.fa-plus{
+    padding-top: 60px;
+    font-size: 100px;
+    height: 40vh;
+    color: black;
+    margin-left: 80px;
+}
+.fa-equals{
+    padding-top: 60px;
+    font-size: 100px;
+    height: 40vh;
+    color: black;
+    margin-left: 80px;
+}
+.fa-plus ::before{
+    margin-top: 30px;
+}
+.step_container{
+    height:24vh;
+}
+.instructions{
+    margin-left:25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: black;
+    font-size: 45px;
+    font-family:'Courier New', Courier, monospace;
+}
+.step1{
+    margin-left: 25px;
+    margin-top: 10px;
+}
+.step2{
+    margin-top: -35px;
+    margin-left: 40vw;
+}
+.out{
+    margin-top: -35px;
+    margin-left: 78vw;
+}
+.try{
+    margin-top: 80px;
+    margin-left: 25px;
+    color: black;
+    font-size: 45px;
+    font-family:'Courier New', Courier, monospace;
+}
+p{
+    margin-left: 25vw;
+    font-size: 25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgba(21, 21, 23, 0.437)
+}
+footer{
+    height: 8vh;
+    background-color: black;
+    color: white;
+}
+footer i{
+    font-size: 30px;
+    cursor:pointer;
+}
+.fa-github{
+    width: 33.33%;
+    padding-left: 10%;
+    margin-top: 20px;
+    color: white;
+}
+.fa-linkedin{
+    width: 33.33%;
+    float: right;
+    padding-left:18%;
+    margin-top: 20px;
+    color: white;
+}
+.fa-medium{
+    width: 33.33%;
+    margin-left: 50%;
+    color: white;
+}
+.medium{
+    margin-left: 30%;
+    margin-top:-35px;
+}
