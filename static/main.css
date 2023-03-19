@@ -115,20 +115,20 @@ footer{
     color: white;
 }
 footer i{
-    font-size: 30px;
+    font-size: 2vw;
     cursor:pointer;
 }
 .fa-github{
     width: 33.33%;
     padding-left: 10%;
-    margin-top: 20px;
+    margin-top: 1.2%;
     color: white;
 }
 .fa-linkedin{
     width: 33.33%;
     float: right;
     padding-left:18%;
-    margin-top: 20px;
+    margin-top: 1.2%;
     color: white;
 }
 .fa-medium{
@@ -138,24 +138,56 @@ footer i{
 }
 .medium{
     margin-left: 30%;
-    margin-top:-35px;
+    margin-top:-2.4%;
 }
 .Gallery{
-    height: 30vh;
+    height: 90vh;
 }
 .updateImg{
+    height: 50%;
+}
+.stepsUpload{
+    height: 50%;
+}
+.stepsUpload p{
+    padding-top:1%;
+    margin: 0;
+}
+.header{
+    height:50%;
+}
+.steps{
+    height: 50%;
     display:flex;
     align-items: center;
     justify-content: center;
+}
+.steps p{
+    font-size: 1.3vw;
+    width: 33.33%;
+    margin-left: 8%;
+}
+.header p{
+    float:left;
+    margin-left:2.0%;
+    margin-top: 2%;
+    color: black;
+    font-size: 2vw;
+    font-family:'Courier New', Courier, monospace;
+}
+.updateBtns{
     height: 50%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 label{
     margin-right: 10%;
     border: .2rem solid black;
     border-radius: 0.2rem;
-    width: 7vw;
-    height: 5vh;
-    font-size: 1.2vw;
+    width: 10%;
+    height: 30%;
+    font-size: 1.5vw;
     background-color: black;
     color: antiquewhite;
     display:flex;
@@ -169,9 +201,9 @@ label:hover{
 #upload{
     border: .2rem solid black;
     border-radius: 0.2rem;
-    width: 7vw;
-    height: 5vh;
-    font-size: 1vw;
+    width: 10%;
+    height: 30%;
+    font-size: 1.5vw;
     background-color: black;
     color: antiquewhite;
     display:flex;
@@ -194,13 +226,13 @@ label:hover{
     justify-content: center;
 }
 .link{
-    height: 50%;
+    height: 30%;
     display:flex;
     align-items: center;
     justify-content: center;
 }
 .gpara p{
-    font-size: 1.3vw;
+    font-size: 1.6vw;
     margin-left: 0%;
 }
 a{

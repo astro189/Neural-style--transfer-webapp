@@ -58,7 +58,7 @@ function renderImg(i,url){
     img.style.width='6%'
     img.style.padding='0.5%'
 
-    if(i==12){
+    if(i==16){
         i=0
         var next=document.createElement('br')
         document.getElementById('gallery_container').appendChild(next)
