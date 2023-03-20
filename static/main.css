@@ -123,18 +123,21 @@ footer i{
     padding-left: 10%;
     margin-top: 1.2%;
     color: white;
+    font-size: 2vw;
 }
 .fa-linkedin{
     width: 33.33%;
     float: right;
     padding-left:18%;
-    margin-top: 1.2%;
+    margin-top: 0.5%;
     color: white;
+    font-size: 2vw;
 }
 .fa-medium{
     width: 33.33%;
     margin-left: 50%;
     color: white;
+    font-size: 2vw;
 }
 .medium{
     margin-left: 30%;
@@ -251,4 +254,100 @@ a:hover{
     align-items: center;
     justify-content: center;
     margin-bottom: 3%;
+}
+.select{
+    height: 5vh;
+    margin-top: -2.5%;
+    font-size: 1.2vw;
+    text-align: center;
+    margin-left: -20%;
+}
+.percentage{
+    height: 5vh;
+    margin-top: -2.5%;
+    font-size: 1.2vw;
+    text-align: center;
+    margin-left: 21%;
+}
+
+@media screen and (max-width:600px){
+    p{
+        font-size: 2vw;
+    }
+    .warning{
+        font-size: 1.6vw;
+    }
+    .header{
+        height: 60%;
+    }
+    .header{
+        font-size: 2vw;
+    }
+    .steps p{
+        font-size: 1.8vw;
+        margin-left: 6%;
+    }
+    .stepsUpload{
+        height: 40%;
+    }
+    .updateBtns{
+        height: 50%;
+    }
+    .select{
+        height: 2vh;
+    }
+    .percentage{
+        height: 2vh;
+    }
+    .Gallery{
+        height: 60vh;
+    }
+    #upload{
+        width: 12%;
+        height: 32%;
+        font-size: 1.5vw;
+    }
+    label{
+        width: 12%;
+        height: 32%;
+        font-size: 1.5vw;
+    }
+    .galleryPage{
+        height: 30%;
+    }
+    .updateImg{
+        height: 50%;
+    }
+    .gpara p{
+        font-size: 2vw;
+    }
+    a{
+        font-size: 3vw;
+
+    }
+    .fa-github{
+        width: 33.33%;
+        padding-left: 10%;
+        margin-top: 5%;
+        color: white;
+        font-size: 4vw;
+    }
+    .fa-linkedin{
+        width: 33.33%;
+        float: right;
+        padding-left:18%;
+        margin-top: 5%;
+        color: white;
+        font-size: 4vw;
+    }
+    .fa-medium{
+        width: 33.33%;
+        margin-left: 50%;
+        color: white;
+        font-size: 4vw;
+    }
+    .medium{
+        margin-left: 30%;
+        margin-top:-5%;
+    }
 }

@@ -62,14 +62,18 @@
             </div>
             </div>
         <div class="updateBtns">
-        <label >
-            <input type="file" id="photo" hidden/>
-            <span > Select File</span> 
-        </label></br>
-        <button id="upload" onclick="uploadImage()">Upload Image</button></br>
-        </div>
-        </div>
+                <label >
+                <input type="file" id="photo" onchange=selectImg() hidden/>
+                <span > Select File</span> 
+                </label></br>
+                
         
+                <button id="upload" onclick=uploadImage()>Upload Image</button></br>
+        </div>
+        <div class="select"></div>
+        <div class="percentage"></div>
+        </div>
+
         <div class="galleryPage">
             <div class="gpara"><p > View all images in gallery</p></div>
             <div class="link"><a href="gallery"> Gallery</a></div>
