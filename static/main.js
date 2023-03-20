@@ -26,6 +26,7 @@ firebase.initializeApp(firebaseConfig);
 var j=0;
 function uploadImage() {
     j+=1
+    select.innerHTML=''
     if(j>=4){
         uploadPercent.innerHTML="Max upload limit reached"
         return 0
