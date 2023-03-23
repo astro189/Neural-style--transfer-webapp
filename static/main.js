@@ -84,7 +84,6 @@ function getfromeFirebase(){
 
 
 function renderImg(i,url){
-    console.log(url)
     var image = new Image();
     image.src = url;
     const img=document.getElementById('gallery_container').appendChild(image)
