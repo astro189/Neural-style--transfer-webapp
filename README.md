@@ -6,21 +6,16 @@ Check it out at:
 
 <h2>Techologies used:</h2>
 <h3>1)For model development</h3>
-<li>
-Tensorflow
-Gradio 
-Python(With multiple libraries)
-</li>
+<li>Tensorflow</li>
+<li>Gradio</li> 
+<li>Python(With multiple libraries)</li>
 
 <h3>2)For webapp creation</h3>
-<li>
-HTML
-CSS  
-JavaScript
-</li>
+<li>HTML</li>
+<li>CSS</li>  
+<li>JavaScript</li>
+
 
 <h3>1)For deployment</h3>
-<li>
-Hugging Face
-Render
-</li>
+<li>Hugging Face</li>
+<li>Render</li>
