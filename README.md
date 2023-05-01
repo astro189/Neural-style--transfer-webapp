@@ -1,7 +1,7 @@
 # Neural-style-transfer-webapp
 <H2>A webapp that allows you to see the neural style transfer in action</H2>
 <br>
-Check it out at:
+<H3>Check it out at:</H3>
 <a href='https://neural-style-transfer-pxpl.onrender.com'>Neural style transfer</a>
 
 <h2>Techologies used:</h2>
