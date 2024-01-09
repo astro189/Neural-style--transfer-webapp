@@ -37,7 +37,7 @@
 <p>Physically the gram matrix represents the same idea as a covariance matrix where we try and get the covariance in between the different features of the feature map and helps us capture the style of the image</p>
 
 <h4>Defining the Style Loss</h4>
-<p>The gram matrix of our feature maps forms the style output we also do the same for the generated image,next its the same as for the content output, we try and increase the similarity between the generated image and the style image to do so we again define the mean squared error loss for the gram matrix outputs</p>
+<p>The gram matrix of our feature maps forms the style output we also do the same for the generated image,next its the same as for the content output, we try and increase the similarity between the generated image and the style image to do so we define the mean squared error loss for the gram matrix outputs</p>
 <p align="center"><img src="https://github.com/astro189/Neural-style-transfer-webapp/blob/main/ReadMe_Images/Screenshot%202024-01-10%20032233.png" alt="Style Loss" width=500px></p>
 <p align="center"><b>Style Loss</b></p>
 <h3>Style and Content Weight</h3>
