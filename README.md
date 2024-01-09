@@ -1,7 +1,7 @@
 <h1>Neural Style Transfer</h1>
 
 <h3>What is the neural style transfer?</h3>
-<p>It is a generative deep learning model that is used for converting an image in to the style of another image. The first paper on neural style transfer (NST) was "A Neural Algorithm of Artistic Style" by Leon Gatys et al, published in 2015, in this paper was described the algorithm to implement the style transfer. The basic idea is to take the feature map outputs of certain layers of any CNN based architecture of three images called the content, style , generated images and the goal is for the generated image to attain a certain level of similarty with both the content and style image thus resulting in a stylized content image</p>
+<p>It is a generative deep learning model that is used for converting an image in to the style of another image. The first paper on neural style transfer (NST) was <b>"A Neural Algorithm of Artistic Style" by Leon Gatys et al</b>, published in 2015, in this paper was described the algorithm to implement the style transfer. The basic idea is to take the feature map outputs of certain layers of any CNN based architecture of three images called the content, style , generated images and the goal is for the generated image to attain a certain level of similarty with both the content and style image thus resulting in a stylized content image</p>
 
 <p align="centre"><img src="https://github.com/astro189/Neural-style-transfer-webapp/blob/main/ReadMe_Images/Screenshot%202024-01-10%20031016.png" alt="Neural Style Transfer"></p>
 <p align="center"><b>Neural Style Transfer</b></p>
