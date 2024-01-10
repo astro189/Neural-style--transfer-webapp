@@ -48,5 +48,7 @@
 <p>The net loss of the model is the total variation loss, its just the summation of the style and the content loss</p>
 <p align="center"><img src="https://github.com/astro189/Neural-style-transfer-webapp/blob/main/ReadMe_Images/Screenshot%202024-01-10%20032432.png" alt="Style Loss" width=500px></p>
 <p align="center"><b>Total Variation Loss</b></p>
+<h3>Website Demo</h3>
 
+https://github.com/astro189/Neural-style-transfer-webapp/assets/97799598/2101b72b-1fea-4287-849e-cb5c2e60b76f
 
